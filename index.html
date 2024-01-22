@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- To-Do = Toggle Theme -->
+    <div id="theme">
+        <img src="./assets/light.png" alt="">
+    </div>
+    <div class="container">
+        <div>
+            <ul id="history"></ul>
+        </div>
+        <div class="form">
+            <h1>Calculator</h1>
+            <input type="number" name="" id="input-one">
+            <select name="" id="operator">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+            <input type="number" name="" id="input-two">
+            <button id="equal-btn">=</button>
+        </div>
+        <div>
+            <h1 id="computation"></h1>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
